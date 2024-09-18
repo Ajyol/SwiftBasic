@@ -7,9 +7,9 @@
 
 import Foundation
 
-var loop = true
+var looping = true
 
-while loop {
+while looping {
     print("Enter sample name: ", terminator: "")
     if let userInput = readLine()?.lowercased() {
         switch userInput {
@@ -18,11 +18,11 @@ while loop {
         case "tloop":
             TLoop()
         case "tvar":
-            print("TVar")
+            TVar()
         case "tsel":
-            print("Tsel")
+            TSel()
         case "exit":
-            loop = false
+            looping = false
         default:
             print("Invalid input.")
         }
