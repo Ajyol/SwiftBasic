@@ -16,7 +16,7 @@ while loop {
         case "tsimple":
             print("TSimple")
         case "tloop":
-            print("TLoop")
+            print("TLoop.")
         case "tvar":
             print("TVar")
             
