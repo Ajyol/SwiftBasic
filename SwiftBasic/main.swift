@@ -14,12 +14,13 @@ while loop {
     if let userInput = readLine()?.lowercased() {
         switch userInput {
         case "tsimple":
-            print("TSimple")
+            TSimple()
         case "tloop":
-            print("TLoop.")
+            print("TLoop")
         case "tvar":
             print("TVar")
-            
+        case "tsel":
+            print("Tsel")
         case "exit":
             loop = false
         default:
@@ -28,4 +29,12 @@ while loop {
     }
 }
 
-print("Program exited.")
+func TSimple() -> Void {
+    print("Hello World!")
+}
+
+func TLoop() {
+    for number in 1...5 {
+        print(number)
+    }
+}
