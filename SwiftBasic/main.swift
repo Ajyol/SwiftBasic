@@ -16,7 +16,7 @@ while loop {
         case "tsimple":
             TSimple()
         case "tloop":
-            print("TLoop")
+            TLoop()
         case "tvar":
             print("TVar")
         case "tsel":
@@ -34,7 +34,21 @@ func TSimple() -> Void {
 }
 
 func TLoop() {
-    for number in 1...5 {
-        print(number)
+    print("Enter the data type: ", terminator: "")
+    if let input = readLine()?.lowercased() {
+        switch input {
+        case "int":
+            for number in 1...5 {
+                print(number)
+            }
+        case "int[]":
+            var nums = [10, 20, 30, 40]
+            for (index, num) in nums.enumerated(){
+                nums[index] = num * 2
+            }
+            print(nums)
+        default:
+            print("Invalid input.")
+        }
     }
 }
