@@ -21,6 +21,8 @@ while looping {
             TVar()
         case "tsel":
             TSel()
+        case "tfunc":
+            TFunc()
         case "exit":
             looping = false
         default:
