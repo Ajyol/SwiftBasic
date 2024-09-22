@@ -23,6 +23,8 @@ while looping {
             TSel()
         case "tfunc":
             TFunc()
+        case "terr":
+            TErr()
         case "exit":
             looping = false
         default:
