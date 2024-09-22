@@ -1,9 +1,3 @@
-//
-//  TErr.swift
-//  SwiftBasic
-//
-//  Created by Ajyol Dhamala on 9/21/24.
-//
 
 func TErr(){
     enum DivisionError: Error {

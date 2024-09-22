@@ -1,9 +1,3 @@
-//
-//  main.swift
-//  SwiftBasic
-//
-//  Created by Ajyol Dhamala on 9/18/24.
-//
 
 import Foundation
 

@@ -1,9 +1,3 @@
-//
-//  TLoop.swift
-//  SwiftBasic
-//
-//  Created by Ajyol Dhamala on 9/18/24.
-//
 
 func TLoop() {
     print("Enter the data type: ", terminator: "")
